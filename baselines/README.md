@@ -1,10 +1,10 @@
 # baselines
 
-该目录收录论文实验中使用的两个 baseline 实现，并保留各自独立的源码结构。
+This directory contains the two baseline implementations used in the experiments reported in the paper, while preserving their original source layouts as much as possible.
 
-- `SGMD22-MBPE`：对应论文 `Efficient Algorithms for Maximal k-Biplex Enumeration`，在本文实验中对应的 baseline 名称为 `iTraversal`。
-- `MaximalBiPlex`：对应论文 `Efficient Maximal Biplex Enumerations with Improved Worst-Case Time Guarantee`，在本文实验中对应的 baseline 名称为 `BPPivot`。
+- `SGMD22-MBPE`: corresponds to the paper `Efficient Algorithms for Maximal k-Biplex Enumeration` and is referred to as `iTraversal` in the reported experiments.
+- `MaximalBiPlex`: corresponds to the paper `Efficient Maximal Biplex Enumerations with Improved Worst-Case Time Guarantee` and is referred to as `BPPivot` in the reported experiments.
 
-为便于统一实验流程，目录中的部分工程文件与数据读取接口做了兼容性适配，使其能够在当前仓库的构建方式和预处理后数据格式下运行。
+To simplify the experimental workflow, some project files and data-loading interfaces in these baseline directories were adapted so that they can run under the build process and prepared input format used in this artifact.
 
-如需具体的编译或运行方式，请分别参考各子目录中的构建文件与说明文档。
+For build and run instructions, please refer to the build files and documentation inside each baseline subdirectory.
